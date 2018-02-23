@@ -7,7 +7,8 @@ function findBigNumber(numbers) {
         return a - b;
     });
     numbers.pop();
-    console.log("Array after deleteing big number " + numbers);
+    console.log("Array after deleting big number ");
+    console.log(numbers);
 }
 
 /* Function to generate random numbers in an array */
@@ -20,6 +21,7 @@ while (arr.length < 10) {
     arr[arr.length] = randomNumber;
 }
 
-console.log("Random generated array " + arr);
+console.log("Random generated array ");
+console.log(arr);
 
 findBigNumber(arr);
