@@ -48,14 +48,14 @@ const obj = {
     ]
 }
 /* function to populate header */
-function populateHeader(obj) {
+let populateHeader = (obj) => {
   let myH1 = document.createElement('h1');
   myH1.textContent = obj.profiles;
   header.appendChild(myH1);
 
 }
 /*Function to show profiles */
-function showProfiles(obj) {
+let showProfiles = (obj)=> {
       let profiles = obj.members;
       for(let i = 0; i < profiles.length; i++) {
         let myArticle = document.createElement('article');
